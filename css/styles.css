@@ -3,14 +3,15 @@
   --dark-color: #2e2f42;
   --success-color: #31d0aa;
   --text-color: #434455;
-  --subtle-text: #8e8f99;
-  --accent-text: #e7e9fc;
-  --light-text: #f4f4fd;
+  --subtle-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --white-color: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .list {
@@ -40,6 +41,10 @@ body {
   color: var(--brand-color);
 }
 
+.logo-bot {
+  color: var(--light-text);
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -60,6 +65,11 @@ body {
   color: var(--dark-color);
 }
 
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--brand-color);
+}
+
 .link-mail {
   font-weight: 500;
   font-size: 16px;
@@ -67,12 +77,23 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+
+.link-mail:hover,
+.link-mail:focus {
+  color: var(--brand-color);
+}
+
 .link-tel {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+}
+
+.link-tel:hover,
+.link-tel:focus {
+  color: var(--brand-color);
 }
 
 /*--------------- hero */
@@ -85,7 +106,7 @@ h1 {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .button {
@@ -96,10 +117,17 @@ h1 {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white-color);
   cursor: pointer;
+  background-color: var(--brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
+.buttton:hover,
+.button:focus {
+  background-color: #404bbf;
+}
 /* -----------------SECTION METHODS */
 
 .methods-title {
@@ -107,7 +135,7 @@ h1 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 
 .methods-text {
@@ -115,7 +143,7 @@ h1 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 /* ---------------- SECTION GALLERY */
@@ -175,4 +203,38 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent-text);
+}
+
+.logo-bot {
+  color: var(--light-color);
+}
+
+/* ----------------------portfolio page  */
+.button-filter {
+  background: var(--light-text);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  background-color: var(--brand-color);
+  color: var(--white-color);
+}
+
+.pic-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.pic-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
