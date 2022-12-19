@@ -17,53 +17,65 @@
   <body>
     <header class="header">
       <nav>
-        <a href="./index.htm">WebStudio</a>
-        <ul class="header-list">
-          <li class="header-item"><a href="#">Studio</a></li>
-          <li class="header-item"><a href="./portfolio.html">Portfolio</a></li>
-          <li class="header-item"><a href="#">Contacts</a></li>
+        <a href="./index.htm" class="link logo"
+          ><span class="brand-logo">Web</span>Studio</a
+        >
+        <ul class="header-list list">
+          <li class="header-item">
+            <a href="#" class="link link-nav">Studio</a>
+          </li>
+          <li class="header-item">
+            <a href="./portfolio.html" class="link link-nav">Portfolio</a>
+          </li>
+          <li class="header-item">
+            <a href="#" class="link link-nav">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="list">
         <li class="header-contact">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="link-mail link"
+            >info@devstudio.com</a
+          >
         </li>
         <li class="header-contact">
-          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <a href="tel:+110001111111" class="link-tel link"
+            >+11 (000) 111-11-11</a
+          >
         </li>
       </ul>
     </header>
     <main>
-      <section>
+      <section class="hero">
         <h1>Effective Solutions for Your Business</h1>
         <!-- sdelat knopky Order Service -->
         <button class="button">Order Service</button>
       </section>
-      <section>
-        <ul>
+      <section class="method">
+        <ul class="list">
           <li>
-            <h2 class="methods">Strategy</h2>
+            <h2 class="methods-title">Strategy</h2>
             <p class="methods-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h2 class="methods">Punctuality</h2>
+            <h2 class="methods-title">Punctuality</h2>
             <p class="methods-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h2 class="methods">Diligence</h2>
+            <h2 class="methods-title">Diligence</h2>
             <p class="methods-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h2 class="methods">Technologies</h2>
+            <h2 class="methods-title">Technologies</h2>
             <p class="methods-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -72,9 +84,10 @@
         </ul>
       </section>
       <!-- sekcia s kartinkami-->
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
+      <section class="gallery">
+        <h2 class="gallery-title">What are we doing</h2>
+        <h2 class="visually-hidden">Gallery</h2>
+        <ul class="list">
           <li>
             <img src="./images/comp.jpg" alt="desktop computer" width="360" />
           </li>
@@ -91,35 +104,37 @@
         </ul>
       </section>
       <!-- staff section-->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
+      <section class="team">
+        <h2 class="team-title">Our Team</h2>
+        <ul class="list">
           <li>
             <img src="./images/mark.jpg" alt="man" width="264" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="team-name">Mark Guerrero</h3>
+            <p class="team-position">Product Designer</p>
           </li>
           <li>
             <img src="./images/tom.jpg" alt="man" width="264" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-name">Tom Ford</h3>
+            <p class="team-position">Frontend Developer</p>
           </li>
           <li>
             <img src="./images/camila.jpg" alt="woman" width="264" />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="team-name">Camila Garcia</h3>
+            <p class="team-position">Marketing</p>
           </li>
           <li>
             <img src="./images/daniel.jpg" alt="man" width="264" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="team-name">Daniel Wilson</h3>
+            <p class="team-position">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="./index.htm">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a href="./index.htm" class="link logo"
+        ><span class="brand-logo">Web</span>>Studio</a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
