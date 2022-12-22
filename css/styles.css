@@ -125,7 +125,7 @@ h1 {
   border-radius: 4px;
 }
 
-.buttton:hover,
+.button:hover,
 .button:focus {
   background-color: #404bbf;
 }
